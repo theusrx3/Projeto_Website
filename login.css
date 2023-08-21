@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #232325;
+    color: #ffffff;
+    border-bottom: 700px
+}
+#logo img{
+    width: 135px;
+    margin-left: 850px;
+    margin-top: 50px;
+    position: absolute;
+    
+}
+#linha_horizontal{
+    color: #FF8C05;
+    width: 78%;    
+    margin-left: 11%;
+    margin-top: 230px;
+    border: 3px solid;
+    position: absolute;
+}
+.caixa_login{
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    background-color: #0D7A92;
+    padding: 130px;
+    border-radius: 25px;
+    width: 600px;
+    color: #000000;
+    bottom: 200px;
+}
+legend{
+    text-align: center;
+    margin-top: -110px;
+    color: #000000;
+    font-size: 12px;
+}
+.caixaInput{
+    position: relative;
+    left: -65px;
+    bottom: -15px;
+    
+
+}
+.usuarioInput{
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 17pt;
+    left: 80px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    top: -59px;
+}
+.inputLabel{
+    position: relative;
+    left: -20px;
+    top: -30px;
+}
+input::placeholder{
+    color: #91919175;
+    font-size: 18px;
+}
+#submit{
+    background-color: #FF8C05;
+    padding: 22px;
+    border-radius: 40px;
+    width: 70%;
+    font-size: 10pt;
+    position: relative;
+    left: 55px;
+    text-align: center;
+    border-color: #FF8C05;
+    bottom: -20px;
+}
+
+.checkbox{
+    position: relative;
+   left: 239px;
+    top: -40px;
+}
+.termosUso{
+    position: relative;
+    left: 240px;
+    font-size: 12px;
+    top: -43px;
+}
+footer{
+    position: absolute;
+    bottom: 0PX;
+    
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+    top: 100%;
+}
+#logo_rodape img{
+    width: 135px;
+    position: absolute;
+    height: 100px;
+}
+#texto_cadastro{
+    position: relative;
+    color: #ffffff;
+    font-size: 11pt;
+    flex-wrap:wrap;
+    bottom: -90px;
+    left: -115px;
+    
+    
+}

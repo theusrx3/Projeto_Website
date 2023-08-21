@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #232325;
+    color: #ffffff;
+    min-height: 100vh; 
+}
+#logo img{
+    width: 100px;
+    left: 120px;
+    top: 30px;
+    position: absolute;
+}
+.rodape{
+    position: absolute;
+    bottom: -180px;
+}
+.informacoes{
+    position: relative;
+    bottom: -300px;
+    height: 600px;
+}
+.titulo{
+    position: absolute;
+    font-size: 18pt;
+    left: 180px;
+    top: -40px;
+}
+.texto_geral{
+    position: relative;
+    top: 60px;
+    left: 180px;
+}

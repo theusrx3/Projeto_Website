@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #232325;
+    color: #ffffff;
+    min-height: 100vh; 
+}
+#logo img{
+    width: 100px;
+    left: 120px;
+    top: 30px;
+    position: absolute;
+}
+.rodape{
+    position: absolute;
+    bottom: 0px;
+}
+.informacoes{
+    position: relative;
+    bottom: -250px;
+    height: 600px;
+}
+.titulo{
+    position: absolute;
+    font-size: 18pt;
+    left: 180px;
+    width: 167px;
+    top: -40px;
+}
+.texto_geral{
+    height: 400px;
+    top: 10px;
+}
+.ilustracao{
+    height: 300px;
+    position: absolute;
+    left: 180px;
+    bottom: 240px;
+}
+.texto_principal{
+    position: absolute;
+    font-size: 24pt;
+    left: 780px;
+    top: 100px;
+    color: black;
+}
+#fundo_amarelo{
+    position: relative;
+    opacity: 0.9;
+    background-color: #e29e15;
+}
+#background-image{
+    position: relative;
+    background-image: url("imagens/full-shot-pessoas-treinando-na-academia.jpg");
+    opacity: 0.3;
+    top: -390px;
+}
+#sub-texto-imagem{
+    position: absolute;
+    bottom: 210px;
+    left: 225px;
+    color: black;
+    border-bottom: black 2px solid;
+}

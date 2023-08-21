@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #232325;
+    color: #ffffff;
+    min-height: 100vh; 
+}
+#logo img{
+    width: 100px;
+    left: 120px;
+    top: 30px;
+    position: absolute;
+}
+.rodape{
+    position: absolute;
+    bottom: -600px;
+}
+.funcionarios{
+    position: relative;
+    bottom: -300px;
+    height: 600px;
+}
+.titulo{
+    position: absolute;
+    font-size: 18pt;
+    left: 180px;
+    top: -40px;
+}
+.imagens-perfil{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    width: 1400px;
+}
+.nome-perfil{
+    font-size: 20pt;
+}
+.informacoes{
+    position: relative;
+    width: 300px;
+    left: 270px;
+    top: -180px;
+}
+.perfil{
+     height: 210px;
+}
+#perfil-3{
+    position: relative;
+    height: 260px;
+    left: -30px;
+    bottom: -20px;
+}
+#perfil-4{
+   position: absolute;
+   top: 0px;
+   left: 650px;
+}
+#informacoes-4{
+left: 915px;
+top: -920px;
+}
+#perfil-5{
+    position: absolute;
+    top: 300px;
+    left: 685px;
+    height: 215px;
+}
+#informacoes-5{
+    left: 915px;
+    top: -710px;
+}
+#perfil-6{
+    position: absolute;
+    top: 630px;
+    left: 635px;
+    height: 225px;
+}
+#informacoes-6{
+    left: 915px;
+    top: -455px;
+}
