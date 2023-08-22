@@ -20,7 +20,7 @@ body {
     position: absolute;
 }
 .caixa_login{
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 33%;
     background-color: #0D7A92;
