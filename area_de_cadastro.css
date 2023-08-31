@@ -21,14 +21,14 @@ body {
 }
 .caixa_login{
     position: relative;
-    top: 30%;
-    left: 33%;
+    margin: 0 auto;
     background-color: #0D7A92;
     padding: 130px;
     border-radius: 25px;
     width: 35%;
+    height: 590px;
     color: #000000;
-    bottom: 100px;
+    bottom: -300px;
 }
 legend{
     text-align: center;
@@ -38,8 +38,6 @@ legend{
 }
 .caixaInput{
     position: relative;
-    
-
 }
 .usuarioInput{
     border: none;
@@ -71,6 +69,7 @@ input::placeholder{
     top: -10px;
     left: 55px;
     text-align: center;
+    border: none;
 }
 
 .checkbox{

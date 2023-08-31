@@ -9,9 +9,18 @@ function App() {
 
   var paypalRef = useRef()
 
-  const product = {
+ const productBasic = {
     price: 100.00,
-    description: "Plano básico",
+    description: "Plano básico"
+  }
+  const productInter = {
+    price: 150.00,
+    description: "Plano intermediário"
+  }
+
+  const productPremium = {
+    price: 180.00,
+    description: "Plano premium"
   }
 
   useEffect(() => {
@@ -32,10 +41,10 @@ function App() {
               return actions.order.create({
                 purchase_units: [
                   {
-                    description: product.description,
+                    description: productPremium.description,
                     amount: {
                       currency_code: "BRL",
-                      value: product.price
+                      value: productPremium.price
                     }
                   }
                 ]
@@ -58,14 +67,20 @@ function App() {
 
   return (
     <>
-    <div className="App">
+    <div className="App" 
+    style={{border: 2 + 'px solid', margin: 0 + ' auto', position: 'relative', width: 500+ 'px', bottom: -300 + 'px', backgroundColor: '#1f1f1f', padding: 30 + 'px',
+    borderRadius: 30 + 'px', fontFamily: 'Arial, Helvetica, sans-serif', color: 'white'
+    
+    
+    
+    }}>
       {paid ? (
         <div>
           <h1>Parabéns você comprou o plano!</h1>
         </div>
       ) : (
         <>
-        <h1>{product.description} por R${product.price}</h1>
+        <h1>{productPremium.description} por R${productPremium.price}</h1>
         <div ref={v => (paypalRef = v)}/>
         </>
       )}
@@ -73,5 +88,6 @@ function App() {
     </>
   );
 }
+
 
 export default App;
