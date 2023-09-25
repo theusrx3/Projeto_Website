@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useRef} from 'react'
-
+import './App.css';
 
 
 function App() {
@@ -67,13 +67,7 @@ function App() {
 
   return (
     <>
-    <div className="App" 
-    style={{border: 2 + 'px solid', margin: 0 + ' auto', position: 'relative', width: 500+ 'px', bottom: -300 + 'px', backgroundColor: '#1f1f1f', padding: 30 + 'px',
-    borderRadius: 30 + 'px', fontFamily: 'Arial, Helvetica, sans-serif', color: 'white'
-    
-    
-    
-    }}>
+    <div className="App">
       {paid ? (
         <div>
           <h1>Parabéns você comprou o plano!</h1>

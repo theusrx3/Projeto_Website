@@ -44,10 +44,7 @@
                     <label for="senha" class="inputLabel"><b>Senha:</b></label>
                     <input type="password" autocomplete="off" name="senha" id="senha" class="usuarioInput" placeholder="*****" maxlength="15" required><br>
                 </div>
-                <div class="caixaInput">
-                    <label for="senha2" class="inputLabel"><b>Repita a senha:</b></label>
-                    <input type="password" autocomplete="off" name="senha2" id="senha2" class="usuarioInput" placeholder="*****" required><br>
-                </div>
+               
                 <div class="inputTermos">
                     <label for="termos" class="termosUso"><b>Li e concordo com os termos de uso</b></label>
                     <input type="checkbox" autocomplete="off" name="termos" id="termos" class="checkbox" required>
