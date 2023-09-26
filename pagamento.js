@@ -1,4 +1,5 @@
+
 function PaginaPagamento() {
 
-    window.location.href = "http://127.0.0.1:5500/Pagamento.html";
+    window.location.href = "http://localhost:3000/";
 }

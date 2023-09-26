@@ -2,7 +2,7 @@ import React, {useState, useEffect, useRef} from 'react'
 import './App.css';
 
 
-function App() {
+ function App() {
 
   const [paid, setPaid] = useState(false)
   const [loaded, setLoaded] = useState(false)
@@ -17,7 +17,6 @@ function App() {
     price: 150.00,
     description: "Plano intermediário"
   }
-
   const productPremium = {
     price: 180.00,
     description: "Plano premium"
@@ -41,10 +40,10 @@ function App() {
               return actions.order.create({
                 purchase_units: [
                   {
-                    description: productPremium.description,
+                    description: productBasic.description,
                     amount: {
                       currency_code: "BRL",
-                      value: productPremium.price
+                      value: productBasic.price
                     }
                   }
                 ]
@@ -74,7 +73,7 @@ function App() {
         </div>
       ) : (
         <>
-        <h1>{productPremium.description} por R${productPremium.price}</h1>
+        <h1>{productBasic.description} por R${productBasic.price}</h1>
         <div ref={v => (paypalRef = v)}/>
         </>
       )}

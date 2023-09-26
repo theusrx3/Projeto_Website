@@ -37,8 +37,8 @@ body{
     color: #ffffff; 
 }
 .rodape{
-    position: absolute;
-    bottom: -800px;
+    position: relative;
+    bottom: -600px;
 }
 .table{
     position: absolute;
