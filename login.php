@@ -20,10 +20,10 @@
     </div>
     
     <div class="caixa_login">
-        <form action="area_de_cadastro.php" method="POST">
+        <form action="verifica.php" method="POST">
             <fieldset>
                 <legend>
-                        <h1><b style="font-size: 20pt;">Login</b></h1>
+                        <h1><b style="font-size: 19pt;">Realize login para continuar</b></h1>
                 </legend>
                 <br> 
                 <div class="caixaInput">

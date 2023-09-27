@@ -14,34 +14,27 @@ $conexao = mysqli_connect("localhost", "root", "", "cadastro_projeto");
 //--------------------------------------------------------------------------------- //
 
 //-----------------------checar se o cpf já existe------------------------------- //
-$cpf = $_POST["cpf"];
-$checar = "SELECT cpf FROM usuario WHERE cpf='$cpf'";
+$email = $_POST["email"];
+$senha = $_POST["senha"];
+$checar = "SELECT * FROM usuario WHERE email='$email' AND senha='$senha'";
 $retorno = mysqli_query($conexao, $checar);
 //------------------------------------------------------------------------------ //
 
 //-----------------------------realizar cadastro------------------------------- //
-if(mysqli_num_rows($retorno)>0){
+if(mysqli_num_rows ($retorno) >0){
     
-    echo '<script>alert("CPF já cadastrado!!!");</script>';
-    print_r("<<<<<< Volte para a página anterior");
+    header('Location: http://localhost:3000/');
+    die();
+
 }
 else{
-    $nome = $_POST["nome"];
-    $cpf = $_POST["cpf"];
-    $email = $_POST["email"];
-    $senha = $_POST["senha"];
-    $insert = "INSERT INTO usuario (nome, cpf, email, senha) VALUES ('$nome', '$cpf', '$email', '$senha')";
-    $resultado = mysqli_query($conexao, $insert);
-    header("location: Home.html");
+    
+   header("location: area_de_cadastro.php");
+   echo "<script>alert('login não encontrado, realize seu cadastro!');</script>";
 }
 //---------------------------------------------------------------------------- //
-
-
-
 
 
 ?>
 </body>
 </html>
-
-

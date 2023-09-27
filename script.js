@@ -1,6 +1,3 @@
-//import App from "./pagamento-teste/src/App"
-
-
 
 ////////// INÍCIO CARROSEL DE IMAGENS /////////
 var count = 1
